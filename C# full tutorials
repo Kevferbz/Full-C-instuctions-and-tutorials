@@ -1,0 +1,87 @@
+using System;
+
+namespace The_real_C_sharp_tutorials
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Print a message to the console
+            Console.WriteLine("Hello World! press a btn");
+           
+            Console.ReadKey();
+            Console.WriteLine("Hello world again");
+            Console.WriteLine("Press enter to exit");
+            Console.Read();
+            /* wait for the user to press a key this is common
+             * way to prevent console windows from terminating itself
+             * without seeing the contents */
+            uint ui = 5U;
+
+            int i = 5;
+
+            sbyte sb = 127;
+
+            decimal m = 30.5m;
+
+            double d = 30.50;
+
+            float f = 38.5F;
+
+            long l = 5L;
+
+            ulong ul = 5UL;
+
+            string s = "this is literatr a string";
+
+            string str = @"path is C\windows\apps";
+
+            //the backlashes and newline are included in the string
+
+            char c = 'h';
+
+            byte b = 127;
+
+            short shrt = 127;
+
+            ushort us = 127;
+
+            bool boo = true;
+
+            
+
+
+
+        }
+        public struct Complex
+        {
+            public double Real { get; set; }
+            public double Imaginary { get; set; }
+            
+            
+
+
+        }
+        public static Complex operator +(Complex c1, Complex c2)
+        {
+
+            return new Complex
+            {
+
+                Real = c1.Real + c2.Real,
+                Imaginary = c1.Imaginary + c2.Imaginary
+
+            };
+            public class wtf
+        {
+            public int X { get; }
+            public int Y { get; }
+        }
+        public static class Polar
+        {
+            public static bool operator is(wtf c, out double R, OutOfMemoryException double Theta)
+        }
+    }
+
+}
+
